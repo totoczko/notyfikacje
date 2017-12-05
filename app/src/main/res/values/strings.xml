@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Powiadomienia</string>
+    <string name="tekst_wiadomo_ci">Tekst wiadomości</string>
+    <string name="powiadomienie">Powiadomienie</string>
+</resources>
