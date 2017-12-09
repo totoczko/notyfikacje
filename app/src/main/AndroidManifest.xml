@@ -18,18 +18,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <receiver android:name=".MyBroadcastReceiver"
+        <!--<receiver android:name=".MyBroadcastReceiver"-->
+            <!--android:enabled="true"-->
+            <!--android:exported="true"-->
+            <!--android:permission="com.example.martyna.wiadomosci.SENDING_MSG">-->
+
+            <!--<intent-filter>-->
+                <!--<action android:name="com.example.martyna.wiadomosci.CUSTOM_INTENT">-->
+                <!--</action>-->
+            <!--</intent-filter>-->
+
+        <!--</receiver>-->
+
+        <service
+            android:name=".MyService"
             android:enabled="true"
-            android:exported="true"
-            android:permission="com.example.martyna.wiadomosci.SENDING_MSG">
-
-            <intent-filter>
-                <action android:name="com.example.martyna.wiadomosci.CUSTOM_INTENT">
-                </action>
-            </intent-filter>
-
-        </receiver>
-    </application>
+            android:exported="true" />
+</application>
 
 
 </manifest>
