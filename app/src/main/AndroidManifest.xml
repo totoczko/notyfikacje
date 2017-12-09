@@ -20,7 +20,8 @@
         </activity>
         <receiver android:name=".MyBroadcastReceiver"
             android:enabled="true"
-            android:exported="true">
+            android:exported="true"
+            android:permission="com.example.martyna.wiadomosci.SENDING_MSG">
 
             <intent-filter>
                 <action android:name="com.example.martyna.wiadomosci.CUSTOM_INTENT">

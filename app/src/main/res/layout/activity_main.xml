@@ -7,23 +7,4 @@
     android:layout_height="match_parent"
     tools:context="com.example.martyna.powiadomienia.MainActivity">
 
-    <ListView
-        android:id="@+id/msgList"
-        android:layout_width="wrap_content"
-        android:layout_height="500dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginTop="16dp" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        android:layout_marginTop="100dp"
-        android:layout_centerHorizontal="true"
-        android:onClick="onClick"
-        tools:layout_editor_absoluteX="108dp"
-        tools:layout_editor_absoluteY="481dp" />
-
 </RelativeLayout>
